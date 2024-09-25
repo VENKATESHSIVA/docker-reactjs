@@ -1,5 +1,5 @@
 # build environment
-FROM node:14-alphine as builder
+FROM node:14-alpine as builder
 WORKDIR /app
 COPY package.json ./
 COPY . .
